@@ -129,7 +129,7 @@ export function ProjectsTable() {
           id: 0,
           name: config.github_repo,
           full_name: `${config.github_owner}/${config.github_repo}`,
-          description: "An example repository for the fake company 'DataStack'. Built for the purposes of the Cognition takehome project",
+          description: "An outdated Angular 14 example application used to demonstrate Angular 14 → 18 migration workflows.",
           html_url: config.github_url,
           stargazers_count: 0,
           forks_count: 0,

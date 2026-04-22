@@ -14,7 +14,7 @@ import {
   SidebarGroup,
   SidebarGroupLabel,
 } from "@/components/ui/sidebar"
-import { FileTextIcon, SettingsIcon } from "lucide-react"
+import { FileTextIcon, SettingsIcon, ArrowUpCircleIcon } from "lucide-react"
 import { config } from "@/lib/config"
 import {
   Avatar,
@@ -75,6 +75,12 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
               <SidebarMenuButton render={<a href="/" />}>
                 <FileTextIcon className="size-4" />
                 <span>Documentation Sync</span>
+              </SidebarMenuButton>
+            </SidebarMenuItem>
+            <SidebarMenuItem>
+              <SidebarMenuButton render={<a href="/migration-workbench" />}>
+                <ArrowUpCircleIcon className="size-4" />
+                <span>Migration Workbench</span>
               </SidebarMenuButton>
             </SidebarMenuItem>
             <SidebarMenuItem>
